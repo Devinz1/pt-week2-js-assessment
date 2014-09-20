@@ -4,6 +4,9 @@
 
 
   //Call the function here
+  var welcome = function(a){
+    alert("welcome " + Tyler)
+  }
 
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
@@ -13,10 +16,15 @@
 //Write a function called 'multiply' that takes in two numbers, multiplies them together, and returns the result
 
   //Function definition here
+var multiply = function(a,b){
+
 
 
   //Call the function here
-
+var c = a*b;
+return c;
+}
+console.log(multiply(9,5));
 
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
@@ -34,7 +42,10 @@
     obj.odds ----> [1,3,5]
 */
   
-  
+  var dice = dice([1,2,3,4,5,6]){
+    
+
+  }
 
 /* we have an i5 processor and are currious as to what cores are needed when we are playing Minecraft.
 

@@ -1,4 +1,7 @@
 //Make the following function calls work
+  var giveItName = function(yourName,cb){
+	cb(yourName);
+
   giveItName('name', function(){
     alert('Your name is ' + name);
   });
@@ -9,3 +12,6 @@
     return item % 2 === 0; 
   });
 
+var giveItName = function(yourName,cb){
+	cb(yourName);
+}
